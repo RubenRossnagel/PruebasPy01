@@ -20,5 +20,15 @@ namespace PruebaPY01
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            textBox.Text = "Has presionado el botón 1";
+        }
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            textBox.Text = "Caja vacia";
+        }
     }
 }

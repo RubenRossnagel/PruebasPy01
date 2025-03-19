@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PruebaPY01"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Prueba-01" Height="450" Width="800">
     <Grid>
-
+        <TextBox x:Name="textBox" HorizontalAlignment="center" VerticalAlignment="Top" Margin="20"
+                 Width="200" Height="30" Text="Escriba aquí"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Botón 1g" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,60,0,0"
+                Width="100" Height="30" Click="Button1_Click"/>
+            <Button Content="Botón 2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,60,0,0"
+                Width="100" Height="30" Click="Button2_Click"/>
+        </StackPanel>
     </Grid>
 </Window>
